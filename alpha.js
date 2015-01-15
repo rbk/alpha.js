@@ -3,7 +3,7 @@ var alpha = {
 	
 	//(1/15/15)	
 	//===================================================================
-	//======= Sending and Getting Request
+	//======= Sending and Requesting Data
 	//===================================================================
 	post: function(url, array) {
 		var xmlhttp;
