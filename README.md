@@ -6,6 +6,6 @@
 #### Sending and Requesting Data
 
 **Post Resquest**
-‘’’js
+```js
 alpha.post('http://google.com', 'name=john&email=john@gmail.com’)
-‘’’ 
+``` 
