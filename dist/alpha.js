@@ -29,6 +29,11 @@ var alpha = {
 		// alpha.thisurl(); 
 	}, 
 	
+	openurl: function(url) {
+		location.href=url;
+		// alpha.openurl('http://'); 
+	},
+	
 	
 	//(1/15/15)	
 	//===================================================================
