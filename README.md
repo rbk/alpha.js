@@ -6,7 +6,7 @@
 ### Sending and Requesting Data
 **Post Resquest**
 ```js
-alpha.post('http://google.com', 'name=john&email=john@gmail.com’);
+alpha.post('http://google.com', 'name=john&email=john@gmail.com');
 ``` 
 
 
@@ -14,4 +14,10 @@ alpha.post('http://google.com', 'name=john&email=john@gmail.com’);
 ```js
 alpha.thisurl(); // Get the URL
 alpha.openurl('http://'); // Open an URL
+``` 
+
+### Debugging 
+```js
+alpha.m('message'); // Console Log
+alpha.mx('message'); // Alert
 ``` 

@@ -35,6 +35,19 @@ var alpha = {
 	},
 	
 	
+	//(1/25/15)	
+	//===================================================================
+	//======= Alerts
+	//===================================================================
+	confirm: function() {
+	    var response;
+	    var response = confirm("Are you sure?");
+	    if (response == true) {
+	       
+	    } 
+	},
+		
+		
 	//(1/15/15)	
 	//===================================================================
 	//======= Inputs 
@@ -49,5 +62,19 @@ var alpha = {
 			return document.getElementsByClassName(name).value;
 		}
 		// alpha.value('name'); 
+	},
+	
+	
+	//(1/25/15)	
+	//===================================================================
+	//======= DEBUGING 
+	//===================================================================
+	m: function(message) {
+		console.log(message);
+		/// alpha.m('message'); 
+	},
+	mx: function(message) {
+		alert(message);
+		/// alpha.mx('message'); 
 	}
 }
