@@ -39,11 +39,12 @@ var alpha = {
 	//===================================================================
 	//======= Alerts
 	//===================================================================
-	confirm: function() {
-	    var response;
+	confirm: function(response) {
+		
+		
 	    var response = confirm("Are you sure?");
 	    if (response == true) {
-	       
+	       return response;
 	    } 
 	},
 		
@@ -76,5 +77,23 @@ var alpha = {
 	mx: function(message) {
 		alert(message);
 		/// alpha.mx('message'); 
-	}
+	},
+	
+	
+	//(2/3/15)	
+	//===================================================================
+	//======= Local Storage
+	//===================================================================
+	set: function(name, val, action) {
+		localStorage.setItem(name, val);
+		if(action) {
+			console.log(name+' set to '+val);
+		}
+	},
+	get: function(name) {
+		return localStorage.getItem(name)
+	},
+	unset: function(name) {
+		return localStorage.removeItem(name)
+	},
 }
